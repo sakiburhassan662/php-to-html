@@ -1,0 +1,76 @@
+/* ---------------------
+    Tablet leyout
+------------------------*/
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social-area{
+        max-width: 460px;
+        padding-top: 14px;
+    }
+    .inner-menu{
+        background: none;
+        min-height: auto;
+    }
+    .inner-menu::after{
+        display: none;
+    }
+    .mean-container .mean-nav{
+        margin-top:0; 
+        width: 80%;
+    }
+    .inner-header{
+        padding: 20px 0;
+        overflow:hidden;
+    }
+    #slider-area{
+        margin-top: 0;
+    }
+    .inner-hero h2{
+        font-size: 55px;
+    }
+}
+
+/* ---------------------
+    Mobile leyout
+------------------------*/
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    .mini-menu{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mini-menu ul, .social-area ul {
+        text-align: center;
+    }
+    .search-area, .logo-area{
+        float: none;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .social-area ul li{
+        margin: 0 5px;
+    }
+    .innner-hero h2{
+        font-size: 25px;
+    }
+    .inner-hero{
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    #work-area{
+        padding: 20px 0;
+    }
+    .child-work{
+        width: 98%;
+    }
+    .child-footer{
+        width: 96%;
+    }
+    .left-copyright{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right-copyright{
+        text-align: left;
+        width:100%;
+    }
+}
